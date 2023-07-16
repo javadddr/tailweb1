@@ -1,0 +1,151 @@
+/* Api Styles */
+.koliapi{
+  background-image: url("./bb.jpeg");
+  background-size: 450px 450px;
+  background-position: 1000px ;
+  background-repeat: no-repeat;
+  
+}
+.api-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  padding-bottom:20px ;
+
+}
+
+.api-info {
+  margin-bottom: 20px;
+}
+
+.api-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.api-info p {
+  font-size: 16px;
+  color: #555555;
+}
+
+.api-terminal {
+  width: 700px;
+  height: 400px;
+  background-color: #1d262d;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 5px;
+  padding-top: 0;
+}
+
+.terminal-title {
+  display: flex;
+  align-items: center;
+  background-color: #08192b;
+  padding: 4px;
+  height: 30px;
+}
+
+.red-circle,
+.yellow-circle,
+.green-circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.red-circle {
+  background-color: #ff5f57;
+}
+
+.yellow-circle {
+  background-color: #ffbd2e;
+}
+
+.green-circle {
+  background-color: #28c940;
+}
+
+.title-text {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.terminal-content {
+  padding: 10px;
+}
+.terminal-content p{
+  margin-top: 10px;
+}
+
+.animated-text {
+  animation: textAnimation 5s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  color: white;
+}
+
+@keyframes textAnimation {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 100%;
+  }
+  80% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+
+.toti{
+  color: rgb(103, 173, 193);
+}
+#sisi{
+  color: rgb(246, 249, 35);
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .koliapi {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .api-container {
+    padding: 10px;
+  }
+
+  .api-terminal {
+    width: 100%;
+    height: auto;
+  }
+
+  .api-info h2 {
+    font-size: 20px;
+  }
+
+  .api-info p {
+    font-size: 14px;
+  }
+
+  .animated-text {
+    font-size: 14px;
+  }
+
+  .terminal-content p {
+    font-size: 14px;
+  }
+}

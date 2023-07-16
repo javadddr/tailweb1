@@ -1,0 +1,42 @@
+
+
+/* Style for the Accordion headings */
+.MuiAccordionSummary-root {
+ 
+  border-bottom: 1px solid #ddd;
+  font-family:'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+
+ 
+}
+
+/* Style for the Accordion content */
+.MuiAccordionDetails-root {
+
+  padding: 10px;
+  border: 1px solid rgb(17, 92, 241);
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.topque{
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 20px;
+ 
+}
+
+.titlequ{
+  color: black;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.kido{
+  width: 10%;
+}
+
+
+
+

@@ -1,0 +1,249 @@
+.vaghan {
+  background-color: #FDFDFD;
+  padding-top: 20px;
+}
+
+.beforemain {
+  background-image: url("./bb.jpeg");
+  background-size: 950px 950px;
+  background-position: 400px;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 600px;
+  margin-left: 16%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(241, 250, 107);
+  border-radius: 20px;
+}
+
+.mainapp {
+  position: relative;
+}
+
+.mainapphalf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 27%;
+  background-color: rgb(103, 244, 247);
+  transition: width 1.5s, transform 2s;
+  transform: translateX(-100%);
+  transform-origin: left;
+  border-radius: 10px;
+  overflow: none;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.mainapphalf1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 27%;
+  background-color: rgb(159, 234, 116);
+  transition: width 1.5s, transform 2s;
+  transform: translateX(-100%);
+  transform-origin: left;
+  border-top-left-radius: 10px;
+  padding-left: 10px;
+}
+
+.mainapphalf2 {
+  position: absolute;
+  bottom: 27%;
+  right: 0;
+  width: 0;
+  height: 10%;
+  background-color: rgb(242, 215, 61);
+  transition: width 1.5s, transform 2s;
+  transform: translateX(-100%);
+  transform-origin: left;
+  border-top-left-radius: 10px;
+  padding-left: 10px;
+}
+
+.tamam {
+  position: relative;
+}
+
+.mainapphalf3 {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 30%;
+  z-index: 100;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+  transition: width 1.5s, transform 2s;
+}
+
+.mainapphalf4 {
+  position: absolute;
+  top: -10%;
+  right: 3%;
+  z-index: 100;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+  transition: width 1.5s, transform 2s;
+}
+
+.axtrack {
+  width: 700px;
+}
+
+.beforemain:hover .mainapphalf {
+  width: 40%;
+  transform: translateX(0);
+}
+
+.beforemain:hover .mainapphalf1 {
+  width: 40%;
+  transform: translateX(0);
+  padding-left: 10px;
+}
+
+.beforemain:hover .mainapphalf2 {
+  width: 20%;
+  transform: translateX(0);
+}
+
+.beforemain:hover .mainapphalf3 {
+  top: 80%;
+  transform: translateX(0);
+}
+
+.mainapp {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+}
+
+.sio {
+  width: 40%;
+  margin-left: 25%;
+  margin-top: -15%;
+}
+
+.mainapphalf h {
+  display: none;
+}
+
+.mainapphalf1 h {
+  display: none;
+}
+
+.mainapphalf2 h {
+  display: none;
+}
+
+.visible h {
+  display: block;
+}
+
+.visible .mainapphalf2 {
+  color: initial;
+}
+
+.topih {
+  margin-top: 20%;
+  margin-left: 1%;
+  font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 100;
+  font-size: 30px;
+}
+
+.hovered .mainapphalf,
+.hovered .mainapphalf1,
+.hovered .mainapphalf2 {
+  width: 30%;
+  transform: translateX(0);
+}
+
+.hovered .mainapphalf h,
+.hovered .mainapphalf1 h,
+.hovered .mainapphalf2 h {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .beforemain {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .mainapphalf3 {
+    top: 60%;
+    left: 5%;
+    width: 90%;
+  }
+  .mainapphalf {
+    top: 30%;
+  
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .mainapphalf4 {
+    top: -5%;
+    right: 3%;
+  }
+  
+  .axtrack {
+    width: 100%;
+    top: 40%;
+    position: relative;
+  }
+  .sio {
+    display: none;
+}
+.tamam{
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.mainapphalf3 {
+  
+  top: 80%;
+  left: 5%;
+  width: 90%;
+  z-index: 100;
+  
+}
+.mainapphalf1{
+  width: 400px;
+}
+.hovered .mainapphalf, .hovered .mainapphalf1, .hovered .mainapphalf2 {
+  width: 100%;
+  transform: translateX(0);
+}
+.beforemain:hover .mainapphalf1 {
+  width: 70%;
+  transform: translateX(0);
+  padding-left: 10px;
+}
+.beforemain:hover .mainapphalf2 {
+  width: 70%;
+  transform: translateX(0);
+  padding-left: 10px;
+}
+.beforemain:hover .mainapphalf {
+  width: 70%;
+  transform: translateX(0);
+  padding-left: 10px;
+}
+
+}

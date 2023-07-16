@@ -1,0 +1,16 @@
+body{
+  font-family:'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* p{
+  color: black;
+  font-size: 26px;
+} */
+h4{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+ul {
+  list-style-type: disc;
+}

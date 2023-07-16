@@ -1,0 +1,117 @@
+.cookie-policy {
+  position: relative;
+  text-align: center;
+}
+
+.cookie-circle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url("./components/cookie.png");
+  background-size:cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cookie-circle.expanded {
+  width: 60px;
+  height: 60px;
+}
+
+
+.cookie-settings {
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+  width: 120px;
+  height: 100px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.cookie-popup {
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  padding: 15px 20px 15px 20px;
+  width: 300px;
+  text-align: left;
+  max-height: 85%;
+  overflow-y: auto;
+  max-width: calc(100% - 40px);
+  background-color: #2d2d2d;
+  z-index: 999997;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'inter', Arial, 'Trebuchet MS', 'Segoe UI', 'Helvetica', sans-serif;
+  box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.35);
+  color: #FFFFFF;
+  box-sizing: border-box;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: opacity 0.3s, transform 0.3s;
+  border-radius: 10px;
+}
+
+.cookie-popup.visible {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.cookie-popup.visible h4 {
+  color: white;
+}
+
+
+.cookie-popup h3 {
+  margin-top: 0;
+  color: white;
+}
+.cookie-popup p {
+  
+  color: white;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 8px 16px;
+}
+
+
+.ACCEPT{
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.DECLINE{
+  border: 1px solid rgb(250, 24, 24);
+  border-radius: 5px;
+}

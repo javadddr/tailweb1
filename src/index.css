@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.blur-div {
+  background-image: url('../src/components/d.png');
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
